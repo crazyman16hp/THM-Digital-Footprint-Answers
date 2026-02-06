@@ -1,0 +1,32 @@
+TASK 1: The Leaked Photo
+An ACME Jet Solutions employee uploaded a photo of a residential property believed to be linked to ACME Jet's early operations. Can you figure out where the picture was taken to confirm or debunk the rumour? 
+Flag format: THM{City}
+Question: In which city was the photo taken?
+Solution: 
+- I fed the image to AI for analysis, and it determined that the photo was definitely taken in South Africa.
+- Of course, the AI ​​gave the wrong answer :)))
+- So I decided to brute force the flag by asking the AI ​​to give me 12-letter South African cities.
+Answer: THM{Johannesburg}
+TASK 2:
+
+TASK 3: Mysterious Landmark
+Further Investigation uncovers another image believed to be connected to the company's international expansion.
+Research reveals that to the right of the iconic landmark is a building that played a big role in the fight for independence of a particular country. Signs on the external wall provides the name of the building. 
+Submit the name of building translated into English as the flag.
+The flag format is THM{Landmark}
+Question: What is the landmark?
+Solution:
+- AI help me xD
+Answer: THM{General Post Office}
+TASK 4: Internal Documents
+After uncovering ACME Jet Solutions origins and tracing their online presence through archived websites and international landmarks, investigators believe that an internal document was accidentally leaked by one of the company's developers. 
+The document may contain crucial information about the individual responsible for maintaining their systems. 
+Question: What is the final flag?
+Solution:
+- This task gives us a .odt file, and I've encountered something like this before, so I know for sure it's a .zip file.
+- Rename the file from .odt to .zip and extract it.
+- I initially focused on the image files, but that yielded no results, so I decided to read the .xml files to see if there were any clues.
+- Boom, I got a name: markwilliams7243 in the meta.xml file and other clues.
+- I used Sherlock to find the social media accounts. And finally, the flag was on YouTube.
+Answer: THM{Y0u_f0und_7h3_fin4l_fl4g!}
+Answer:
