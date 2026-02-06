@@ -7,6 +7,7 @@ Solution:
 - Of course, the AI ​​gave the wrong answer :)))
 - So I decided to brute force the flag by asking the AI ​​to give me 12-letter South African cities.
 Answer: THM{Johannesburg}
+
 TASK 2: Archived Company Website
 ACME Jet Solutions (warc-acme.com/jef/), is all over social meda claiming they were founded in 2025 and that they're the fastest-growing data company in Africa.
 But something doesn't add up, one of their ex-employees ensures you that the company existed long before that.
@@ -25,6 +26,7 @@ Question: What is the landmark?
 Solution:
 - AI help me xD
 Answer: THM{General Post Office}
+
 TASK 4: Internal Documents
 After uncovering ACME Jet Solutions origins and tracing their online presence through archived websites and international landmarks, investigators believe that an internal document was accidentally leaked by one of the company's developers. 
 The document may contain crucial information about the individual responsible for maintaining their systems. 
